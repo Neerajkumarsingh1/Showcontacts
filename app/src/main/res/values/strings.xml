@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ShowContacts</string>
+
+         <string name="hello_world">Hello world!</string>
+        <string name="menu_settings">Settings</string>
+        <string name="title_activity_main">MainActivity</string>
+     
+    <string name="onItemClick">Open Popup Menu</string>
+    <string name="action1">Action1</string>
+    <string name="action2">Action2</string>
+    <string name="action3">Action3</string>
 </resources>
