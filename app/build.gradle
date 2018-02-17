@@ -30,5 +30,15 @@ dependencies {
     compile 'com.miguelcatalan:materialsearchview:1.4.0'
 
 
+    implementation 'com.karumi:dexter:4.2.0'
+    compile 'com.android.support:appcompat-v7:22.2.1'
+
+
+
+
+
+
+
+
 
 }

@@ -40,7 +40,7 @@ public class MainAcivity extends AppCompatActivity {
     private final int SEND_REQUEST_CONCATS = 123;
     // ListView list;
     EditText editsearch;
-    Button button;
+    Button pop;
     //    SearchView sr;
     AllContactsAdapter contactsAdapter;
 
@@ -56,6 +56,31 @@ public class MainAcivity extends AppCompatActivity {
         setContentView( R.layout.activity_main );
 
         recyclerView = findViewById( R.id.rv );
+      /*  pop=findViewById( R.id.pop);
+        pop.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                PopupMenu popup = new PopupMenu(MainAcivity.this, v);
+
+                // popup.getMenuInflater().inflate(R.menu.popup_menu, popup.getMenu());
+                popup.getMenuInflater().inflate(R.menu.popup_menu,popup.getMenu());
+                popup.setOnMenuItemClickListener( new PopupMenu.OnMenuItemClickListener() {
+                    @Override
+                    public boolean onMenuItemClick(MenuItem item) {
+
+
+                        return true;
+                    }
+                } );
+
+
+                popup.show();//showing popup menu
+            }
+
+
+
+        } );*/
 
        /* button = findViewById( R.id.callb );
         button.setOnClickListener( new View.OnClickListener() {
